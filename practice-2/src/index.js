@@ -1,3 +1,22 @@
+// import ReactDom from 'react-dom/client';
+
+// const root = ReactDom.createRoot(document.getElementById('root'));
+
+// function tick(){
+
+//   const element = (
+//     <div>
+//       <h1>Hello World!</h1>
+//       <h2>It's {new Date().toLocaleTimeString()}.</h2>
+//     </div>
+//   );
+
+//   root.render(element);
+// }
+
+
+// setInterval(tick,1000);
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import PRODUCTS from './products';
