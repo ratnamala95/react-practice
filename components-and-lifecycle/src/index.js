@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Clock from './Components/Clock.js';
 import reportWebVitals from './reportWebVitals';
 
+
+// setInterval(()=>{
+//   root.render(<Clock />);
+// },1000);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// function tick(){
+//   root.render(<Clock date={new Date}/>);
+// }
 root.render(
   <React.StrictMode>
-    <App />
+    <Clock />
   </React.StrictMode>
 );
 
