@@ -1,0 +1,10 @@
+function VideoComponent(props){
+    return(
+        <div className="videoDiv">
+            this div is for video
+        </div>
+    );
+}
+
+
+export default VideoComponent;
